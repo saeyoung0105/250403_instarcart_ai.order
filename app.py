@@ -7,7 +7,8 @@ import ast  # 문자열을 리스트로 안전하게 변환
 # ------------------------------
 @st.cache_data
 def load_data():
-    file_path = "C:/Users/PARKJUHWAN/Desktop/python/chapter2/충성고객_추천데이터.xlsx"
+    file_path = file_path = "충성고객_추천데이터.xlsx"
+
     return pd.read_excel(file_path)
 
 df = load_data()
